@@ -1,0 +1,22 @@
+#grid{
+    /* display: grid; grid-template-columns:100px 100px ;grid-template-rows: auto; padding: 5px; margin: 5px; */
+}
+#wrapper{
+    /* display: grid; grid-template-columns:100px 100px ;grid-template-rows: auto; padding: 5px; margin: 5px;  */
+    display: grid; grid-template-columns: 2fr;grid-template-rows: auto;
+}
+
+header{background-color:red; text-align: center; grid-column:  1/2; 
+}
+#sidebar{text-align: center;
+    background-color: royalblue; grid-column: 2; 
+}
+#content{text-align: center;
+    background-color: seagreen; grid-column: 1/4;
+}
+#Sidebar2{text-align: center;
+    background-color: purple; grid-column: 1; 
+}
+#Footer{text-align: center;
+    background-color: yellow; grid-column: 1/6;
+}
